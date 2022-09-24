@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="row">
+    <div class="col-sm-3">
+         <h4 align="center" style="color:white;background:rgb(16, 152, 161);font-family: Verdana; padding:5px">Registro Mac </h4>
+    <div">
+    <div>
+        <a href="{% url 'registrar' %}" class="btn btn-danger btn-sm">Registrar</a>     
+    </div>    
+    <div>
+        <h5> {{res}}</h5>
+    </div>    
+</div>
+
+ {% endblock content%}
